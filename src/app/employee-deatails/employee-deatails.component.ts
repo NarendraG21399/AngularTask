@@ -14,7 +14,11 @@ export class EmployeeDeatailsComponent implements OnInit {
     this.Employee.GetEmployeeDeatails().subscribe((data: any) => {
       this.EmployeeData = data;
       console.log(data);
-    });
+    },
+    err => {
+      console.log('json data not found:' , err);
+    }
+    );
   }
 
 }

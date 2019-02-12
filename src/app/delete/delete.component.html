@@ -8,6 +8,8 @@
         <th>Designation</th>
         <th>DOB</th>
         <th>Salary</th>
+        <th>Delete </th>
+        <th>Update</th>
       </tr>
     </thead>
     <tbody>
@@ -15,8 +17,10 @@
         <td>{{employee.EmployeeId}}</td>
         <td>{{employee.EmployeeName}}</td>
         <td>{{employee.Designation}}</td>
-        <td>{{employee.DOB}}</td>
-        <td>{{employee.salary}}</td>
+        <td>{{employee.Dob}}</td>
+        <td>{{employee.Salary}}</td>
+        <td><button (click)="delete(employee.EmployeeId,employee.EmployeeName)">delete</button></td>
+        <td><button (click)="Upadate(employee.EmployeeId,employee.EmployeeName)">Update</button></td>
       </tr>
     </tbody>
   </table>

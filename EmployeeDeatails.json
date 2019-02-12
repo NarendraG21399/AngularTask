@@ -29,7 +29,7 @@
   "EmployeeId":"105",
   "EmployeeName":"Dipesh",
   "Designation":"marketing",
-  "DOB":"4/5/1994",
+  "DOB":"4/05/1994",
   "salary":"30000"
 },
 {
@@ -43,7 +43,7 @@
   "EmployeeId":"107",
   "EmployeeName":"Vineet",
   "Designation":"Sap developer",
-  "DOB":"17/6/1985",
+  "DOB":"17/06/1985",
   "salary":"35000"
 },
 {
@@ -127,7 +127,7 @@
   "EmployeeId":"119",
   "EmployeeName":"Komal",
   "Designation":"Admin",
-  "DOB":"21/7/1994",
+  "DOB":"21/07/1994",
   "salary":"35000"
 },
 {
